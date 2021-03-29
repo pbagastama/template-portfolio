@@ -204,12 +204,19 @@ body {
   margin-bottom: 0;
 }
 
-.resume .xp-job,
-.resume .xp-job a {
+.resume .xp-job {
   font-size: 1.1em;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.25rem;
   color: #000;
+  text-decoration: none;
+  margin-bottom: .15rem;
+}
+
+.resume .xp-job a {
+  font-size: .95em;
+  font-weight: 300;
+  color: #0364da;
   text-decoration: none;
 }
 
